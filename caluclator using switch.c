@@ -6,7 +6,7 @@ int main()
 	printf("enter a&b values");
 	scanf("%d%d",&a,&b);
 	printf("enter the operator");
-	scanf("%c",&ch);
+	scanf("%c ",&ch);
 	switch(ch)
 	{
 	 case '+' :c=a+b;
@@ -26,5 +26,6 @@ int main()
 	}
 	return 0;
 	}
+
 
 
